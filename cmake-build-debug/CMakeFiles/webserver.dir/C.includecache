@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/zouchunxu/c-webserver/server.c
+string.h
+-
+sys/socket.h
+-
+netinet/in.h
+-
+unistd.h
+-
+stdlib.h
+-
+stdio.h
+-
+
